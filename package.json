@@ -1,0 +1,34 @@
+{
+  "name": "athanasia-libsignal-node",
+  "version": "1.0.2",
+  "description": "Signal protocol implementation for Node.js (libsignal-node fork maintained by Athanasia)",
+  "homepage": "https://t.me/athanasiaskizo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AthanasiaCMD/libsignal-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AthanasiaCMD/libsignal-node/issues"
+  },
+  "author": "Athanasia (https://github.com/AthanasiaCMD)",
+  "main": "index.js",
+  "keywords": [
+    "signal",
+    "whispersystems",
+    "crypto",
+    "athanasia",
+    "baileys"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "curve25519-js": "^0.0.4",
+    "protobufjs": "6.8.8"
+  },
+  "files": [
+    "index.js",
+    "src/*"
+  ],
+  "devDependencies": {
+    "eslint": "6.0.1"
+  }
+}
